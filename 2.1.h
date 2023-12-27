@@ -8,6 +8,12 @@
 // Task
 // https://leetcode.com/problems/minimum-time-to-make-rope-colorful/?envType=daily-question&envId=2023-12-27
 
+#include <algorithm>
+#include <iostream>
+#include <vector>
+#include <string>
+#include <cmath>
 
+int minCost(std::string& colors, const std::vector<int> &neededTime);
 
 #endif //LEETCODE_2_1_H
