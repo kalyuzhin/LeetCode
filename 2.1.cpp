@@ -18,3 +18,9 @@ int minCost(std::string &colors, const std::vector<int> &neededTime) {
     return sum;
 }
 
+void tests() {
+    assert(minCost((std::string &) "aabaa", {1, 2, 3, 4, 1}) == 2);
+    assert(minCost((std::string &) "abc", {1, 2, 3}) == 0);
+    assert(minCost((std::string &) "abaac", {1, 2, 3, 4, 5}) == 3);
+    assert(minCost((std::string &) "aaabbbabbbb", {3, 5, 10, 7, 5, 3, 5, 5, 4, 8, 1}) == 26);
+}

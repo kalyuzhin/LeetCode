@@ -10,10 +10,13 @@
 
 #include <algorithm>
 #include <iostream>
+#include <cassert>
 #include <vector>
 #include <string>
 #include <cmath>
 
 int minCost(std::string& colors, const std::vector<int> &neededTime);
+
+void tests();
 
 #endif //LEETCODE_2_1_H
