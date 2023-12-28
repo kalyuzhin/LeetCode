@@ -23,7 +23,7 @@ int romanToInt(std::string s) {
 //        } else {
 //            flag = false;
 //        }
-    
+        
     }
     return result;
 }
