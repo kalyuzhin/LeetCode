@@ -2,7 +2,7 @@
 // Created by Марк Калюжин on 27.12.2023.
 //
 
-#ifndef LEETCODE_2_1_H
+#ifndef LEETCODE_1_2_H
 #define LEETCODE_2_1_H
 
 // Task
@@ -19,4 +19,4 @@ int minCost(std::string& colors, const std::vector<int> &neededTime);
 
 void tests();
 
-#endif //LEETCODE_2_1_H
+#endif //LEETCODE_1_2_H
