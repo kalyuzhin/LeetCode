@@ -16,7 +16,9 @@ int minCost(std::string &colors, const std::vector<int> &neededTime) {
         }
     }
     return sum;
+
 }
+
 
 void tests() {
     assert(minCost((std::string &) "aabaa", {1, 2, 3, 4, 1}) == 2);
