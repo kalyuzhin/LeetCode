@@ -11,6 +11,8 @@
 #include <map>
 #include <string>
 #include <cassert>
+#include <iostream>
+#include <algorithm>
 
 int romanToInt(std::string s);
 

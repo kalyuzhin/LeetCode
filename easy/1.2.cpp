@@ -15,15 +15,8 @@ int romanToInt(std::string s) {
             {'D', 500},
             {'M', 1000}
     };
-    bool flag = false;
-    for (auto i = s.rbegin(); i != s.rend(); ++i) {
-//        result = flag? result -= map[*i] : result += map[*i];
-//        if ((*i == 'V' || *i == 'X' || *i == 'L' || *i == 'C' || *i == 'D' || *i == 'M') && *i != *++i) {
-//            flag = true;
-//        } else {
-//            flag = false;
-//        }
-        
+    for (size_t i = 0; i != s.size(); ++i) {
+        result = map[s[i]] < map[s[i + 1]] ? result -= map[s[i]] : result += map[s[i]];
     }
     return result;
 }

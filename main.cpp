@@ -2,9 +2,8 @@
 #include "easy/1.1.h"
 #include "easy/1.2.h"
 
-int main() {
 
-    //tests_1();
+int main() {
     tests_2();
     return 0;
 }
