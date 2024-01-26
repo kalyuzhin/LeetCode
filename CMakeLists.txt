@@ -13,4 +13,10 @@ add_executable(LeetCode main.cpp
         easy/1.3.cpp
         easy/1.3.h
         easy/1.4.cpp
-        easy/1.4.h)
+        easy/1.4.h
+        my-module/myfunctions.cpp
+        my-module/myfunctions.h
+        easy/1.5.cpp
+        easy/1.5.h
+        easy/1.6.cpp
+        easy/1.6.h)
