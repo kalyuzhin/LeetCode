@@ -9,6 +9,8 @@
 
 #include <vector>
 
-int removeDuplicates(std::vector<int> &nums);
+int remove_duplicates(std::vector<int> &nums);
+
+int removeDuplicates(std::vector<int>& nums);
 
 #endif //LEETCODE_1_6_H

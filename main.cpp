@@ -12,8 +12,6 @@ int main() {
     tests_2();
     tests_3();
     tests_4();
-    std::vector<int> v{1, 1, 2};
-    removeDuplicates(v);
-    std::cout << v;
+    
     return 0;
 }
