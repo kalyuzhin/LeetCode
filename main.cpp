@@ -12,6 +12,5 @@ int main() {
     tests_2();
     tests_3();
     tests_4();
-    
     return 0;
 }
