@@ -28,4 +28,6 @@ add_executable(LeetCode main.cpp
         easy/1.9.h
         easy/1.10.cpp
         easy/1.10.h
+        easy/1.11.cpp
+        easy/1.11.h
 )
